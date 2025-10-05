@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head> 
+<h2>Formularios HTML</h2>
+<body>
+    <form> 
+   <div>
+     <label>Nome:</label>
+     <input type="text">
+   </div>
+       <div>
+           <label>Senha:</label>
+           <input type="text" name="senha">
+       </div> 
+       <div>
+           <!-- envio de form-->
+            <input type="submit" value="Enviar">
+        </div>
+        <div>
+            <!-- selecionar varias OPTION-->
+             <label for="job">Selecione as Profissões</label>
+             <select name="job">
+                 <option value="developer">Desenvolvedor</option>
+                 <option value="designer">Designer</option>
+                 <option value="manager">Gerente de Projetos</option>
+                 <option value="student">Estudante</option>
+        </div>
+        <div>
+           <label for="contract">Tipo de Contrato</label>
+              <select name="contract">
+                <option value="sim">sim</option>
+                <option value="não">não</option>
+            </select>
+                
+        </div>
+
+
+        </form>
+
+</body>
+</html>
